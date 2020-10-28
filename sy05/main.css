@@ -1,0 +1,38 @@
+.top
+{
+    height: 200px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    font-style: italic;
+}
+.mrk{
+    font-size: larger;
+    font-weight: bold;
+    color: darkcyan;
+}
+#top {
+    background-color: teal;
+    color: white;
+    height: 256px;
+    display: block;
+    line-height: 200px;
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    font-style:italic;
+}
+
+.back2top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: x-large;
+}
+
+.align{
+    text-align: center;
+    display: block;
+}
