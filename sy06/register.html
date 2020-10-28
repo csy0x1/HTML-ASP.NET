@@ -83,6 +83,8 @@
 
             if (Check_Duplicate()) {    //检测学号是否已存在
                 console.log("重复")
+                x = document.getElementById("ucodeck");  //学号检查
+                x.innerHTML = "学号已被注册!";
                 isValid = false;
             }
             /*
@@ -134,7 +136,14 @@
                 x = document.getElementById("mailck");
                 x.innerHTML = "";
             }
+            
+            if(typeof(Storage)=="undefined")
+            {
+                alert("不支持本地存储！")
+                isValid=false
+            }
 
+            
             if (isValid) {
                 localStorage.setItem("username_" + ucode, username) //存储数据，格式为(数据类型名称_学号)
                 localStorage.setItem("password_" + ucode, pwd)
@@ -142,7 +151,7 @@
                 localStorage.setItem("realname_" + ucode, fname)
                 localStorage.setItem("email_" + ucode, umail)
                 console.log(localStorage)
-                //frm.submit();
+                frm.submit();
             }
         }
 
@@ -180,7 +189,7 @@
             <nobr id="fpwdck" class="error"></nobr>
             <br />
             <label for="mail">电子邮箱:</label>
-            <input type="text" id="email" />
+            <input type="text" id="email" maxlength="128"/>
             <nobr id="mailck" class="error"></nobr>
             <br />
             <label for="question">密码提示问题:</label>
@@ -190,7 +199,8 @@
             <input type="text" id="answer" />
             <br />
             <input type="button" value="确认" onclick="validate();" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="reset" value="重置" />
+            <input type="reset" value="重置" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="已有账户？登录" onclick="javascript:window.location.href='login.html'"/>
         </fieldset>
     </form>
 </body>
