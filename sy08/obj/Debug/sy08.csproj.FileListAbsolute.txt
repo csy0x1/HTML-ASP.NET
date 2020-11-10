@@ -1,0 +1,12 @@
+F:\文件\学习\HTML\B13_04180120\sy08\bin\sy08.dll
+F:\文件\学习\HTML\B13_04180120\sy08\bin\sy08.pdb
+F:\文件\学习\HTML\B13_04180120\sy08\obj\Debug\sy08.csprojResolveAssemblyReference.cache
+F:\文件\学习\HTML\B13_04180120\sy08\obj\Debug\sy08.dll
+F:\文件\学习\HTML\B13_04180120\sy08\obj\Debug\sy08.pdb
+D:\HTML project\B13_04180120\HTML-ASP.NET\sy08\bin\sy08.dll.config
+D:\HTML project\B13_04180120\HTML-ASP.NET\sy08\bin\sy08.dll
+D:\HTML project\B13_04180120\HTML-ASP.NET\sy08\bin\sy08.pdb
+D:\HTML project\B13_04180120\HTML-ASP.NET\sy08\obj\Debug\sy08.csprojAssemblyReference.cache
+D:\HTML project\B13_04180120\HTML-ASP.NET\sy08\obj\Debug\sy08.csproj.CoreCompileInputs.cache
+D:\HTML project\B13_04180120\HTML-ASP.NET\sy08\obj\Debug\sy08.dll
+D:\HTML project\B13_04180120\HTML-ASP.NET\sy08\obj\Debug\sy08.pdb

@@ -1,0 +1,5 @@
+F:\文件\学习\HTML\B13_04180120\sy07\bin\sy07.dll
+F:\文件\学习\HTML\B13_04180120\sy07\bin\sy07.pdb
+F:\文件\学习\HTML\B13_04180120\sy07\obj\Debug\sy07.dll
+F:\文件\学习\HTML\B13_04180120\sy07\obj\Debug\sy07.pdb
+F:\文件\学习\HTML\B13_04180120\sy07\obj\Debug\sy07.csprojResolveAssemblyReference.cache

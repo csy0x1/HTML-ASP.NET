@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Validate()
+        {
+            var uname = document.getElementById("username").value
+            var isValide = true
+            var frm = document.getElementById("mainform")
+            if(uname=='')
+            {
+                alert("you must input a username")
+                isValide = false
+            }
+            else
+            {
+                isValide = true
+            }
+        
+            if(isValide)
+            {
+                frm.submit()
+            }
+        }
+    </script>
+</head>
+<body>
+        <form id="mainform" action="sy07\login.html" method="POST">
+            <fieldset>
+                <input id="username" type="text"/>
+                <input type="button" value="submit" onclick="Validate();"/>
+            </fieldset>
+        </form>
+</body>
+</html>
