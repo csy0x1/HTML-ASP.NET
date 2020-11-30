@@ -1,7 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="csy.Index" %>
 
 <!DOCTYPE html>
-26
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -27,6 +26,9 @@
         <div id="right">
             <iframe name="main"></iframe>
         </div>
+    </div>
+    <div id="tail">
+        <input type="hidden" id="log" runat="server"/>
     </div>
 </body>
 </html>
