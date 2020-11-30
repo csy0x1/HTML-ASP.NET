@@ -63,6 +63,3 @@ D:\HTML project\B13_04180120\HTML-ASP.NET\sy09\obj\Debug\sy09.csproj.CoreCompile
 D:\HTML project\B13_04180120\HTML-ASP.NET\sy09\obj\Debug\sy09.csproj.CopyComplete
 D:\HTML project\B13_04180120\HTML-ASP.NET\sy09\obj\Debug\sy09.dll
 D:\HTML project\B13_04180120\HTML-ASP.NET\sy09\obj\Debug\sy09.pdb
-D:\HTML project\B13_04180120\HTML-ASP.NET\sy09\obj\Debug\sy09.csprojAssemblyReference.cache
-D:\HTML project\B13_04180120\HTML-ASP.NET\sy09\obj\Debug\csy.Properties.Resources.resources
-D:\HTML project\B13_04180120\HTML-ASP.NET\sy09\obj\Debug\sy09.csproj.GenerateResource.cache
